@@ -17,6 +17,9 @@ function readedgesfile(filepath::String; comment::Char='#',
     # initialize
     edges = Dict{Int64,MyGraphEdgeModel}()
     linecounter = 0;
+   
+    # changes for submission 
+
     
     # main -
     open(filepath, "r") do file # open a stream to the file
